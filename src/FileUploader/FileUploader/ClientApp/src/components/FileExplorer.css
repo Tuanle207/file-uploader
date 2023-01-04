@@ -1,0 +1,22 @@
+ul.reset,
+ul.reset li,
+ul.reset ul li {
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: 0;
+}
+
+.fileItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fileItem:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.fileIconActionButton {
+  margin-left: 8px;
+}
